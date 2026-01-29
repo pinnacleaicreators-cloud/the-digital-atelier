@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Digital Atelier | Future of Fashion Technology</title>
+    <style>
+        :root {
+            --bg: #ffffff;
+            --text: #1a1a1a;
+            --meta: #666;
+            --accent: #2d2d2d;
+            --border: #eaeaea;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Georgia, serif;
+            background-color: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+        
+        /* Navigation */
+        nav {
+            border-bottom: 1px solid var(--border);
+            padding: 1.5rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .logo {
+            font-family: 'Georgia', serif;
+            font-weight: 700;
+            font-size: 1.5rem;
+            letter-spacing: -0.5px;
+            color: #000;
+            text-decoration: none;
+        }
+        .nav-links a {
+            margin-left: 20px;
+            text-decoration: none;
+            color: var(--meta);
+            font-size: 0.9rem;
+            font-weight: 500;
+        }
+
+        /* Layout */
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 4rem 2rem;
+        }
+
+        /* Hero Header */
+        header {
+            text-align: center;
+            margin-bottom: 4rem;
+        }
+        header h1 {
+            font-size: 3rem;
+            margin-bottom: 0.5rem;
+            font-weight: 800;
+            letter-spacing: -1px;
+        }
+        header p {
+            color: var(--meta);
+            font-size: 1.2rem;
+        }
+
+        /* Article List */
+        .article-card {
+            margin-bottom: 4rem;
+        }
+        
+        .meta-line {
+            font-size: 0.85rem;
+            color: var(--meta);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 0.5rem;
+            font-weight: 600;
+        }
+
+        h2 {
+            font-size: 2rem;
+            margin: 0.5rem 0;
+            line-height: 1.2;
+        }
+        
+        h2 a {
+            color: var(--text);
+            text-decoration: none;
+            transition: color 0.2s;
+        }
+        h2 a:hover { color: #555; }
+
+        .excerpt {
+            color: #4a4a4a;
+            font-size: 1.1rem;
+            margin-top: 0.8rem;
+        }
+
+        .read-more {
+            display: inline-block;
+            margin-top: 1rem;
+            color: #000;
+            font-weight: 600;
+            text-decoration: underline;
+            text-decoration-thickness: 2px;
+        }
+
+        footer {
+            border-top: 1px solid var(--border);
+            text-align: center;
+            padding: 3rem;
+            color: var(--meta);
+            font-size: 0.9rem;
+            margin-top: 4rem;
+        }
+
+    </style>
+</head>
+<body>
+
+    <nav>
+        <a href="index.html" class="logo">The Digital Atelier.</a>
+        <div class="nav-links">
+            <a href="#">Industry Reports</a>
+            <a href="#">Tech Reviews</a>
+            <a href="#">About</a>
+        </div>
+    </nav>
+
+    <div class="container">
+        
+        <header>
+            <h1>Fashion in the Age of AI.</h1>
+            <p>Unbiased analysis of the tools reshaping the garment industry.</p>
+        </header>
+
+        <div class="article-card">
+            <div class="meta-line">Strategy • May 21, 2026</div>
+            <h2><a href="posts/death-of-sample-room.html">The Death of the Sample Room: Why Virtual Fitting is the New Standard</a></h2>
+            <p class="excerpt">For decades, the "Sample Room" was the heartbeat of a fashion house. It was also the money pit. New physics engines are changing that.</p>
+            <a href="posts/death-of-sample-room.html" class="read-more">Read Story</a>
+        </div>
+
+        <div class="article-card">
+            <div class="meta-line">Startup Guide • May 21, 2026</div>
+            <h2><a href="posts/launch-streetwear-500.html">How to Launch a Streetwear Brand with $500</a></h2>
+            <p class="excerpt">The barrier to entry has collapsed. You no longer need $20k for inventory. You need a laptop and a pre-order strategy.</p>
+            <a href="posts/launch-streetwear-500.html" class="read-more">Read Story</a>
+        </div>
+
+        <div class="article-card">
+            <div class="meta-line">Software Review • May 21, 2026</div>
+            <h2><a href="posts/competitor-showdown.html">Botika vs. Lalaland vs. Imperium: The 2026 Comparison</a></h2>
+            <p class="excerpt">We tested the top AI model generators on the market. One is for dropshippers, one is for enterprise, and one is changing the game.</p>
+            <a href="posts/competitor-showdown.html" class="read-more">Read Story</a>
+        </div>
+
+        <div class="article-card">
+            <div class="meta-line">Manufacturing • May 21, 2026</div>
+            <h2><a href="posts/smart-tech-pack.html">What is a "Smart Tech Pack"? (And Why Excel is Killing You)</a></h2>
+            <p class="excerpt">Static PDFs are the cause of 40% of manufacturing errors. Dynamic data is the solution.</p>
+            <a href="posts/smart-tech-pack.html" class="read-more">Read Story</a>
+        </div>
+
+        <div class="article-card">
+            <div class="meta-line">Business Models • May 21, 2026</div>
+            <h2><a href="posts/pre-order-model.html">Why "Pre-Order" is the Only Business Model That Matters</a></h2>
+            <p class="excerpt">Inventory is risk. Smart brands are using AI visualization to sell before they sew.</p>
+            <a href="posts/pre-order-model.html" class="read-more">Read Story</a>
+        </div>
+
+    </div>
+
+    <footer>
+        <p>© 2026 The Digital Atelier. Independent Fashion Technology Analysis.</p>
+    </footer>
+
+</body>
+</html>

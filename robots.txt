@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://pinnacleaicreators-cloud.github.io/the-digital-atelier/sitemap.xml
